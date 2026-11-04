@@ -1,0 +1,18 @@
+{
+  "name": "telegram-ludo",
+  "version": "1.0.0",
+  "description": "Telegram Multiplayer Ludo Game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "telegraf": "^4.16.3"
+  }
+}
